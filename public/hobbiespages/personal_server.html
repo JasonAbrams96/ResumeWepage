@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <title>About Personal Server</title>
+    </head>
+    <body>
+        <!-- TODO: UPDATE COMPUTER SERVER HOW TO -->
+        <h1>About Personal Server</h1>
+        <p>Hello! You have stumbled onto my about my server page.
+            The server is made in Linux, I used a GUI version of 
+            Ubuntu to create it; and it lays on my home network.
+            My personal server is a few things:Home Entertainment Server, 
+            a NAS, a server for some LAN games, and a personal DB that houses my 
+            recipes. And on here I can take you on a step by step tutorial on how 
+            to get your very own Ubuntu server!
+        </p>
+        <hr/>
+        <h2>PARTS LIST</h2>
+        <ul>
+            <li>Computer (new or junk)
+                <ul>
+                    <li>If using a laptop you won't need a monitor and a keyboard at the very least.</li>
+                    <li>You will need a way to display what is on your server's screen until you have it 
+                        all configured. 
+                    </li>
+                    <li>KEYBOARD and MONITOR are needed.</li>
+                </ul>
+            </li>
+            <li>ethernet cable</li>
+            <li>Another computer on your home network to be able to access the server from.</li>
+            <li>Lots of hard disk space. Minimum of 1TB HDD reccomended
+                <ul>
+                    <li>I used a 1 TB hard disk drive I had laying around for this.</li>
+                    <li>I also eventually got a upgraded case and more drives installed.</li>
+
+                </ul>
+            </li>
+        </ul>
+        <h2>THE HOW TO</h2>
+        <ol>
+            <li>Get a junk computer/laptop that has a lan port
+                <ul>
+                    <li>It doesn't have to be junk just something that can connect to your modem/wifi spot in your home.</li>
+                    <li>I used a computer that I got dirt cheap that still has ddr3 ram in it. But it works great for this.</li>
+                    <li>The lan port is preffered so the connection is not interrupted.</li>
+                </ul>
+            </li>
+            <li>Install your linux distro of choice
+                <ul>
+                    <li>I used a Debian based Linux and Ubuntu.</li>
+                    <li>Does not have to be Debian but its what I am used to.</li>
+                    <li>I also used the Ubuntu LTS Desktop version and not the server. Either are good, I just like the 
+                        GUI of the desktop. All it really does is eat some time up and space on hard disk for the server
+                        function. Still works fine if you want to use the Server or Desktop iso. </li>
+                    <li>DO A CLEAN INSTALL, so it wipes everything on the hard drive</li>
+                </ul>
+            </li>
+            <li>Update all packages in the distro
+                <ul>
+                    <li>On Debian:
+                        <ol>
+                            <li>sudo apt-get update</li>
+                            <li>sudo apt-get upgrade</li>
+                        </ol>
+                    </li>
+                    <li>On Red Hat:
+                        <ol>
+                            <li>sudo yum update</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>Install Samba Service</li>
+            <li>Configure server to have a static IP Address on your network.</li>
+            <li>ON A DIFFERENT COMPUTER, install openssh</li>
+            <li>connect to your server with the Username you added in Samba</li>
+            <li>TBC </li>
+        </ol>
+        <a href="https://askubuntu.com/questions/245406/how-to-make-a-home-server-using-ubuntu-desktop">For Additional Help</a>
+    </body>
+</html>
